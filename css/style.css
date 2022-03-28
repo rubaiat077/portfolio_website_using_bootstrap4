@@ -1,0 +1,158 @@
+/* common css */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* banner section start  */
+
+.outer_banner {
+    background-color: #DDF4FF;
+}
+
+.inner_banner {
+    background-color: #2C974B;
+}
+
+/* banner section end  */
+
+
+/* navbar section start */
+.navbar_container{
+    top: 0;
+    position: sticky;
+    z-index: 999;
+}
+nav ul li {
+    text-transform: uppercase;
+}
+
+
+/* navbar section start  */
+
+
+/* about section start */
+
+#about {
+    background-color: #2C974B;
+}
+
+
+/* about section end */
+
+
+/* education section start */
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #2C974B;
+}
+
+#education {
+    background-color: #DDF4FF;
+}
+/* education section end */
+
+/* project section start */
+#project {
+    background-color: #2C974B;
+}
+.btn_project:hover{
+    background-color: #cdeefd !important;
+    transition:  0.3s ease-in-out;
+}
+/* project section end */
+
+/* portfolio section start */
+#portfolio{
+    background-color: #DDF4FF;
+}
+
+/* portfolio section end */
+
+/* gallery section start */
+#gallery {
+    background-color: #2C974B;
+}
+
+/* gallery section end */
+
+/* contact section start */
+#contact{
+    background-color: #DDF4FF;
+}
+
+.inner_color{
+    background-color: #DDF4FF;
+}
+/* contact section end */
+
+/* footer section start */
+.sm_circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    transition: 1.3s ease-in-out;
+}
+.sm_circle:hover{
+
+    background-color: white;
+    color: #007BFF;
+    cursor: pointer;
+}
+.sm_circle_1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #DC3545;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    transition: 1.3s ease-in-out;
+}
+.sm_circle_1:hover{
+
+    background-color: white;
+    color: #DC3545;
+    cursor: pointer;
+}
+
+.sm_circle_2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    transition: 1.3s ease-in-out;
+}
+.sm_circle_2:hover{
+
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* footer section end */
